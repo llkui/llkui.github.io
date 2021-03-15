@@ -1,0 +1,46 @@
+@for $i from 0 through 4 {
+  .pad#{$i * 5} {
+    padding: 5px * $i !important;
+  }
+}
+
+@each $paramAb,
+$param in (m, margin),
+(p, padding) {
+
+  @each $positionAb,
+  $position in (t, top),
+  (l, left),
+  (r, right),
+  (b, bottom) {
+    @for $i from 0 through 10 {
+      .#{$paramAb}#{$positionAb}#{$i * 5} {
+        #{$param}-#{$position}: $i * 5px !important;
+      }
+    }
+  }
+}
+
+.pt7 {
+  padding-top: 7px;
+}
+
+.p-group {
+  padding: .5em 1em;
+}
+
+.mtb25em {
+  margin: .25em 0;
+}
+
+.mt8 {
+  margin-top: 8px;
+}
+
+.m10 {
+  margin: 10px;
+}
+
+.mar2 {
+  margin: 2px;
+}
