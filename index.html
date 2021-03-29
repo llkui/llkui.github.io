@@ -104,16 +104,41 @@
       border-radius: 4px;
       border: 1px solid #eee;
       background-color: #fafafa;
-      height: 40px;
+      height: 140px;
       width: 200px;
       margin: 0 8px 16px;
       padding: 16px;
+      transition: all 0.2s ease-in-out;
+      line-height: 24px;
+    }
+
+    .card-img {
+      background: #fafafa;
+      height: 100px;
+      overflow: hidden;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+    }
+
+    .card-img img {
+      width: 100%;
+      height: auto;
+      border: none;
+    }
+
+    .card-info {
       display: flex;
       flex-direction: row;
       justify-content: center;
       align-items: center;
-      transition: all 0.2s ease-in-out;
-      line-height: 24px;
+      margin: 16px 0;
     }
 
     .card-container .card:not(:last-child) {
@@ -125,7 +150,7 @@
       width: 168px;
     }
 
-    .card-container .card:not(.highlight-card) {
+    .card-container .card-link:not(.highlight-card) {
       cursor: pointer;
     }
 
@@ -287,7 +312,7 @@
       }
 
       .card:not(.highlight-card) {
-        height: 16px;
+        height: 140px;
         margin: 8px 0;
       }
 
@@ -352,36 +377,36 @@
     <p></p>
 
     <div class="card-container">
-      <a class="card" target="_blank" rel="noopener" href="https://llkui.github.io/ng-antd-admin">
-        <svg class="material-icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-          <path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z" />
-        </svg>
-
-        <span>ng-antd-admin</span>
-
-        <svg class="material-icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-          <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z" /></svg>
-      </a>
-      <a class="card" target="_blank" rel="noopener" href="https://llkui.github.io/weui-design-vue">
-        <svg class="material-icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-          <path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z" />
-        </svg>
-
-        <span>weui-design-vue</span>
-
-        <svg class="material-icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-          <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z" /></svg>
-      </a>
-      <a class="card" target="_blank" rel="noopener" href="https://llkui.github.io/4y-chat">
-        <svg class="material-icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-          <path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z" />
-        </svg>
-
-        <span>4y-chat</span>
-
-        <svg class="material-icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-          <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z" /></svg>
-      </a>
+      <div class="card">
+        <div class="card-img">
+          <img src="./images/ng-antd-admin-thumbnail.jpg" alt="ng-antd-admin">
+        </div>
+        <div class="card-info">
+          <a class="card-link" target="_blank" rel="noopener" href="https://llkui.github.io/ng-antd-admin">
+            <span>ng-antd-admin</span>
+          </a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-img">
+          <img src="./images/weui-design-vue-thumbnail.jpg" alt="ng-antd-admin">
+        </div>
+        <div class="card-info">
+          <a target="_blank" rel="noopener" href="https://llkui.github.io/weui-design-vue">
+            <span>weui-design-vue</span>
+          </a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-img">
+          <img src="./images/4y-chat-thumbnail.jpg" alt="ng-antd-admin">
+        </div>
+        <div class="card-info">
+          <a target="_blank" rel="noopener" href="https://llkui.github.io/4y-chat">
+            <span>4y-chat</span>
+          </a>
+        </div>
+      </div>
     </div>
 
     <!-- Next Steps -->
