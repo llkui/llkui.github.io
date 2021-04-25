@@ -11,6 +11,7 @@ MIT
 MIT
 
 ng-element-ui
+MIT
 
 rxjs
 Apache-2.0
