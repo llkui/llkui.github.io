@@ -1,0 +1,20 @@
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'nel-demo-color-picker-basic',
+  template: `
+    <div class="block">
+      <span class="demonstration">有默认值</span>
+      <nel-color-picker [(ngModel)]="color1"></nel-color-picker>
+    </div>
+    <div class="block">
+      <span class="demonstration">无默认值</span>
+      <nel-color-picker [(ngModel)]="color2"></nel-color-picker>
+    </div>
+  `
+})
+
+export class NelDemoColorPickerBasicComponent {
+  color1 = '#409EFF';
+  color2 = null;
+}
