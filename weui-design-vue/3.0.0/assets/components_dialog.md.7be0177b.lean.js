@@ -1,0 +1,1 @@
+import{_ as e,c as t,o,a}from"./app.5adccfc8.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"components/dialog.md","lastUpdated":1678234869000}'),s={name:"components/dialog.md"},n=a("p",null,"dialog",-1),c=[n];function r(d,i,l,p,_,m){return o(),t("div",null,c)}const g=e(s,[["render",r]]);export{u as __pageData,g as default};

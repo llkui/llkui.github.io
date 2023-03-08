@@ -1,0 +1,1 @@
+import{_ as t,c as e,o,a}from"./app.5adccfc8.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"components/toast.md","lastUpdated":1678234869000}'),s={name:"components/toast.md"},n=a("p",null,"toast",-1),c=[n];function r(p,_,d,i,l,m){return o(),e("div",null,c)}const h=t(s,[["render",r]]);export{u as __pageData,h as default};
