@@ -1,1 +1,0 @@
-import{_ as e,c as t,o,a as s}from"./app.9c60bffa.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"components/icons.md","lastUpdated":1678234869000}'),n={name:"components/icons.md"},a=s("p",null,"icons",-1),c=[a];function r(i,p,_,d,l,m){return o(),t("div",null,c)}const h=e(n,[["render",r]]);export{u as __pageData,h as default};

@@ -1,1 +1,0 @@
-import{_ as e,c as t,o,a}from"./app.9c60bffa.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"components/footer.md","lastUpdated":1678234869000}'),s={name:"components/footer.md"},n=a("p",null,"footer",-1),r=[n];function c(p,_,d,f,i,l){return o(),t("div",null,r)}const h=e(s,[["render",c]]);export{u as __pageData,h as default};

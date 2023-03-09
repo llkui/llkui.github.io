@@ -1,1 +1,0 @@
-import{_ as e,c as t,o,a}from"./app.9c60bffa.js";const k=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"components/picker.md","lastUpdated":1678234869000}'),s={name:"components/picker.md"},c=a("p",null,"picker",-1),n=[c];function r(p,i,_,d,l,m){return o(),t("div",null,n)}const u=e(s,[["render",r]]);export{k as __pageData,u as default};
