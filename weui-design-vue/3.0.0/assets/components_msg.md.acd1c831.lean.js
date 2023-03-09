@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as s,a as o}from"./app.e40ad696.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"components/msg.md","lastUpdated":1678234869000}'),a={name:"components/msg.md"},n=o("p",null,"msg",-1),c=[n];function r(p,_,d,m,i,l){return s(),t("div",null,c)}const g=e(a,[["render",r]]);export{u as __pageData,g as default};
