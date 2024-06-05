@@ -1,0 +1,12 @@
+<svg width="100%" height="100%" viewBox="-10.5 -9.60 21 19.2" fill="none"
+  xmlns="http://www.w3.org/2000/svg">
+  <defs xmlns="http://www.w3.org/2000/svg">
+    <style>.cls-1{fill:#409eff;fill-rule:evenodd;}.cls-2{stroke:#409eff;}</style>
+  </defs>
+  <text x="-3.4" y="3.0" fill="currentColor" font-size="0.7em" class="cls-1">e</text>
+  <g stroke="currentColor" stroke-width="1" fill="none" class="cls-2">
+    <ellipse rx="10" ry="5.8"></ellipse>
+    <ellipse rx="10" ry="5.8" transform="rotate(60)"></ellipse>
+    <ellipse rx="10" ry="5.8" transform="rotate(120)"></ellipse>
+  </g>
+</svg>
